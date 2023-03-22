@@ -1,7 +1,6 @@
 import pandas as pd 
 import numpy as np 
-import streamlit as st 
-#import streamlit as st 
+
 
 
 def diction_maker():
@@ -43,7 +42,7 @@ def getColumns():
 # ask whihch values to edit th
 def spefVal(week , day ,name,score ):
    
-   df =pd.read_csv("bubu.CSV")
+   df =pd.read_csv("bubu.csv")
    current = df[(df["week"]==week)&(df["day"]== day)]
 
    currIndex = current.index.values
