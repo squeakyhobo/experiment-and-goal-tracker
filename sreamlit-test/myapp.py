@@ -46,7 +46,7 @@ def button_callback():
     st.write('Button clicked!')
 
 
-df = pd.read_csv("bubu.CSV")
+df = pd.read_csv("bubu.csv")
 
 # get collumn headers
 
