@@ -42,7 +42,7 @@ def getColumns():
 # ask whihch values to edit th
 def spefVal(week , day ,name,score ):
    
-   df =pd.read_csv("bubu.csv")
+   df =pd.read_csv("bubu.CSV")
    current = df[(df["week"]==week)&(df["day"]== day)]
 
    currIndex = current.index.values
@@ -55,7 +55,7 @@ def spefVal(week , day ,name,score ):
 
 
    df.iloc[currIndex,col_index] = score
-   df.to_csv("bubu.csv",index=False)
+   df.to_csv("bubu.CSV",index=False)
    
    
    

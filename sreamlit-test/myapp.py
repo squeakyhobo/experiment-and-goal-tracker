@@ -18,7 +18,7 @@ def log_input(name):
 
 def button_col(score,*args):
   
-   df = pd.read_csv("bubu.csv")
+   df = pd.read_csv("bubu.CSV")
    for arg in args:
         st.button(arg,on_click=spefVal,args=(week,day,arg,score))
         
@@ -46,7 +46,7 @@ def button_callback():
     st.write('Button clicked!')
 
 
-df = pd.read_csv("bubu.csv")
+df = pd.read_csv("bubu.CSV")
 
 # get collumn headers
 
