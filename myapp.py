@@ -85,7 +85,7 @@ elif week_check != 0:
         st.write(f"score is{score}")
 
         if st.button("log"):
-            button_col(score,"read mins","sleep score","journal ","meditate","impor tasks")
+            button_col(score,"read mins","sleep score","journal ","meditate","impor tasks","mood")
 
             
             
