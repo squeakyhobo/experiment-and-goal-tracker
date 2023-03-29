@@ -7,7 +7,7 @@ from functions import getColumns
 from functions import spefVal
 
 
-
+df = pd.read_csv("bubu.CSV")
 
 def log_input(name):
    
@@ -46,7 +46,7 @@ def button_callback():
     st.write('Button clicked!')
 
 
-df = pd.read_csv("bubu.CSV")
+
 
 # get collumn headers
 
