@@ -94,6 +94,6 @@ elif week_check != 0:
         
 
 elif day == 0 and week == 0 :
-    df =pd.read_csv("bubu.csv")
+    df =pd.read_csv("bubu.CSV")
     df
 
